@@ -30,7 +30,7 @@ In order to label variables appropriately, the brackets are removed from the nam
 Average of the activity measurements per activity for each subject,  is calculated using ddply(). The dataset is named result.
 
 #3.Use descriptive activity names to name the activities in the data set:
-The activity_code values are replaced with descriptive names as given in activity_labels.txt using lapply(). The activity_code variable is renamed Activity_name. The final dataset 'result' is returned.
+The activity_code values are replaced with descriptive names as given in activity_labels.txt using sapply(). The activity_code variable is renamed Activity_name. The final dataset 'result' is returned.
  
 
 
