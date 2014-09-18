@@ -90,6 +90,16 @@
 77 fBodyBodyGyroJerkMag-mean : Frequency domain signal for body angular velocity jerk Euclidean norm magnitude mean
 78 fBodyBodyGyroJerkMag-std: Frequency domain signal for body angular velocity jerk Euclidean norm magnitude standard deviation
 79 fBodyBodyGyroJerkMag-meanFreq: Frequency domain signal for body angular velocity jerk Euclidean norm magnitude mean frequency
+80 Activity_name:Name of activity done for the measure
+   Values: 1 WALKING
+
+           2 WALKING_UPSTAIRS
+           3 WALKING_DOWNSTAIRS
+
+           4 SITTING
+           5 STANDING
+           6 LAYING
+81 Subject_code:Numeric value, identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 
                                                                                                                       
